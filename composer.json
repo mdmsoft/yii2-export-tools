@@ -1,0 +1,25 @@
+{
+	"name": "mdmsoft/yii2-export-tools",
+	"description": "Widgets for Yii2",
+	"keywords": ["yii", "export", "xls"],
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/mdmsoft/yii2-export-tools/issues",
+		"source": "https://github.com/mdmsoft/yii2-export-tools"
+	},
+	"authors": [
+		{
+			"name": "Misbahul Munir",
+			"email": "misbahuldmunir@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"mdm\\export\\": ""
+		}
+	}
+}
